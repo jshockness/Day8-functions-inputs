@@ -14,4 +14,4 @@ def greet_with(name, location):
   print(f"Hello {name}.")
   print(f"What is the weather like in {location}?")
 
-greet_with("Debora", "New York")
+greet_with(name = "Debora", location = "New York")
