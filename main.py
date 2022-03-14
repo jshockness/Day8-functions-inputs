@@ -9,3 +9,9 @@ def greet(name):
   print("Such a beautiful day, right?")
 
 greet("Debora")
+
+def greet_with(name, location):
+  print(f"Hello {name}.")
+  print(f"What is the weather like in {location}?")
+
+greet_with("Debora", "New York")
